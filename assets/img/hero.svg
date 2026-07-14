@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Freshly detailed car at dusk">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="80%" r="80%">
+      <stop offset="0" stop-color="#2a2417"/>
+      <stop offset=".5" stop-color="#141414"/>
+      <stop offset="1" stop-color="#0a0a0b"/>
+    </radialGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d4af37" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#d4af37" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#glow)"/>
+  <ellipse cx="800" cy="720" rx="560" ry="60" fill="url(#floor)"/>
+  <path d="M420 660c50-140 170-210 380-210s330 70 380 210" fill="none" stroke="#d4af37" stroke-opacity=".3" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="600" cy="676" r="56" fill="none" stroke="#d4af37" stroke-opacity=".3" stroke-width="10"/>
+  <circle cx="1000" cy="676" r="56" fill="none" stroke="#d4af37" stroke-opacity=".3" stroke-width="10"/>
+</svg>
